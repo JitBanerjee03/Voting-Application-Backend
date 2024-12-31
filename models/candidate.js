@@ -63,3 +63,6 @@ const candidateSchema=mongoose.Schema({
     }
 
 })
+
+const candidateModel=mongoose.model('candidate',candidateSchema);
+module.exports=candidateModel;
